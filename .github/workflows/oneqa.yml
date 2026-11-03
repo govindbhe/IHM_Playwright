@@ -1,0 +1,96 @@
+# OneQA Automation Suite runner.
+# Commit this file as .github/workflows/oneqa.yml in your test repo.
+# OneQA starts it from the "Run" button and reads the results back.
+name: OneQA Tests
+run-name: OneQA ${{ inputs.oneqa_run_id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      oneqa_run_id:
+        description: "OneQA run id (set by OneQA)"
+        required: true
+        type: string
+      spec:
+        description: "Spec file to run (empty = all tests)"
+        required: false
+        type: string
+        default: ""
+      grep:
+        description: "Only run tests whose title matches"
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Load OneQA project secrets
+        env:
+          ONEQA_ENV: ${{ secrets.ONEQA_ENV }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const crypto = require("crypto");
+            const raw = process.env.ONEQA_ENV || "";
+            if (!raw) { console.log("No OneQA secrets for this project."); process.exit(0); }
+            const env = JSON.parse(raw);
+            const out = [];
+            for (const [k, v] of Object.entries(env)) {
+              if (!/^[A-Z_][A-Z0-9_]*$/.test(k)) continue;
+              for (const line of String(v).split(/\r?\n/)) if (line.trim()) console.log("::add-mask::" + line);
+              const end = "ONEQA_" + crypto.randomBytes(12).toString("hex");
+              out.push(k + "<<" + end, String(v), end);
+            }
+            fs.appendFileSync(process.env.GITHUB_ENV, out.join("\n") + "\n");
+            console.log("Loaded " + (out.length / 3) + " secret(s).");
+          '
+
+      - name: Run Playwright tests
+        env:
+          SPEC: ${{ inputs.spec }}
+          GREP: ${{ inputs.grep }}
+          PLAYWRIGHT_JSON_OUTPUT_NAME: oneqa-report.json
+        run: |
+          args=()
+          if [ -n "$SPEC" ]; then args+=("$SPEC"); fi
+          if [ -n "$GREP" ]; then args+=(--grep "$GREP"); fi
+          npx playwright test "${args[@]}" --reporter=json,list
+
+      - name: Upload report for OneQA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oneqa-report-${{ inputs.oneqa_run_id }}
+          path: oneqa-report.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Upload screenshots, videos and traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oneqa-artifacts-${{ inputs.oneqa_run_id }}
+          path: test-results/
+          retention-days: 7
+          if-no-files-found: ignore
