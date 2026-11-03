@@ -1,0 +1,15 @@
+{
+    "myOrdersAndReturnsLink": "(//a[text()='My Orders and Returns'])[2]",
+    "myWishListLink": "//a[text()='My Wish List']",
+    "addressBookLink": "//a[text()='Address Book']",
+    "addressBookLinkAlt": "(//a[text()='Address Book'])[3]",
+    "editAddressButton": "(//span[text()='Edit'])[1]",
+    "deleteAddressButton": "(//span[text()='Delete'])[1]",
+    "myProfileLink": "//a[normalize-space()='My Profile' and contains(@href,'profile')] | //a[normalize-space()='My Profile']",
+    "contactUsLink": "(//a[text()='Contact Us'])[3]",
+    "logoutLink": "(//a[text()='Logout'])[2]",
+    "myAccountLinkPrimary": "//a[normalize-space()='My Account' and contains(@href,'account')]",
+    "myAccountLink": "//a[normalize-space()='My Account'] | //strong[normalize-space()='My Account']/ancestor::a[1]",
+    "myAccountStrong": "//strong[normalize-space()='My Account']",
+    "myAccountAny": "//*[normalize-space()='My Account']"
+}

@@ -1,0 +1,16 @@
+{
+    "giCertificateNumberInput": "//input[@id='gi_certificate_no']",
+    "giNumberDropdown": "//select[@id='gi_number']",
+    "certificateDateInput": "//input[@id='certificate_date']",
+    "certificateUploadInput": "//input[@id='certificate_upload']",
+    "registrationValidUptoDateInput": "//input[@id='registration_valid_upto']",
+    "submitGiButton": "//button[@id='submit']",
+    "giAddSuccessMessage": "//*[contains(normalize-space(.),'Data saved successfully') or contains(normalize-space(.),'saved successfully') or contains(normalize-space(.),'successfully')][not(self::script)]",
+    "formHeading": "(//*[contains(text(),'GI Tagged Product') or contains(text(),'GI Tag')])[3]",
+    "labelGiCertificateNo": "//label[contains(text(),'GI Certificate Number')]",
+    "labelSelectGiNumber": "//label[contains(text(),'Select GI Number')]",
+    "labelCertificateDate": "//label[contains(text(),'Certificate Date')]",
+    "labelUploadCertificate": "//label[contains(text(),'Upload Certificate')]",
+    "allowedExtensionsText": "//*[contains(text(),'Allowed extensions')]",
+    "validationError": "//*[contains(@class,'error') or contains(@class,'invalid') or contains(@class,'alert')]"
+}

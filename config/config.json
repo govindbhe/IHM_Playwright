@@ -1,0 +1,16 @@
+{
+"app":{
+
+"url":"${URL}",
+"seller_email":"${SELLER_EMAIL}",
+"seller_password":"${SELLER_PASSWORD}",
+"gi_seller_email":"${GI_SELLER_EMAIL}",
+"gi_seller_password":"${GI_SELLER_PASSWORD}",
+"buyer_mobile":"${BUYER_MOBILE}",
+"buyer_email":"${BUYER_EMAIL}",
+"buyer_otp_email_password":"${BUYER_OTP_EMAIL_PASSWORD}",
+"imap_host":"${IMAP_HOST}",
+"imap_port":"${IMAP_PORT}"
+}
+
+}

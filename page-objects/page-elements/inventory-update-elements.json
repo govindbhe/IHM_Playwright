@@ -1,0 +1,13 @@
+{
+    "searchSkuField": "//input[@placeholder='Search by SKU' or @name='sku' or @id='sku']",
+    "statusDropdown": "//select[@id='status' or @name='status' or contains(@class, 'status')]",
+    "searchButton": "//button[contains(., 'Search') or @title='Search']",
+    "firstEditButton": "(//button[contains(., 'Edit') or contains(@class, 'edit')])[1]",
+    "modalStockField": "//div[contains(@class,'modal')]//input[@id='inventory_stock' or @id='qty' or @name='qty']",
+    "modalListingPriceField": "//div[contains(@class,'modal')]//input[@id='price' or @name='price']",
+    "modalSpecialPriceField": "//div[contains(@class,'modal')]//input[@id='special_price' or @name='special_price']",
+    "modalSaveButton": "//div[contains(@class,'modal')]//button[contains(., 'Save') or @id='save']",
+    "modalCancelButton": "//div[contains(@class,'modal')]//button[contains(., 'Cancel') or @id='cancel']",
+    "successMessage": "//div[contains(@class, 'message-success') or contains(@class, 'success')]",
+    "errorMessage": "//div[contains(@class, 'message-error') or contains(@class, 'error')]"
+}

@@ -1,0 +1,10 @@
+{
+    "returnReasonDropdown": "//select[contains(@name,'[reason]')]",
+    "itemConditionDropdown": "//select[contains(@name,'[condition]')]",
+    "returnResolutionDropdown": "//select[contains(@name,'[resolution]')]",
+    "addMessageTextArea": "//textarea[@name='comment']",
+    "attachFileInput": "#amrma-attach",
+    "checkBox": "(//label[@class='amrma-label'])[3]",
+    "submitRequestButton": "//button[text()='Submit Request']",
+    "returnRaisedSuccessMessage": "//div[contains(text(),'Thanks for contacting us with your comments and questions.')]"
+}

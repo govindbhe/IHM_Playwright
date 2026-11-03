@@ -1,0 +1,13 @@
+{
+  "seller": {
+    "email": "govindbhelonde1996@gmail.com",
+    "password": "Govind@1234"
+  },
+  "product": {
+    "name": "Handmade Cotton Saree",
+    "category": "Women's Wear",
+    "price": "1500",
+    "description": "Beautiful handmade cotton saree",
+    "quantity": "10"
+  }
+}

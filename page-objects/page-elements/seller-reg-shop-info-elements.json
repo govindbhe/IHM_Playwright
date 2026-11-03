@@ -1,0 +1,5 @@
+{
+    "shopVirtualNameInput": "//input[@id='profileurl']",
+    "clickAnyWhere": "//li[text()='Bank Account Details']",
+    "proceedButton": "//button[@id='proceed']"
+}

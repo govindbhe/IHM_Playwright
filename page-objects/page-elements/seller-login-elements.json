@@ -1,0 +1,13 @@
+{
+  "emailInput": "input[name*='email'][type='email']",
+  "passwordInput": "input[name*='password'][type='password']",
+  "loginButton": "button:has-text('Sign In')",
+  "errorMessage": "div[class*='error-message']",
+  "successMessage": "div[class*='success-message']",
+  "forgotPasswordLink": "a:has-text('Forgot Password')",
+  "emailInputXpath": "//input[@id='email']",
+  "passwordInputXpath": "(//input[@id='pass'])[1]",
+  "signInButtonXpath": "//span[text()='Sign in']",
+  "forgotPasswordXpath": "//span[text()='Forgot Your Password?']",
+  "newRegistrationXpath": "//span[text()='Don't have account? Click here to register']"
+}

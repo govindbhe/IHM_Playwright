@@ -1,0 +1,6 @@
+{
+    "emailFieldInput": "(//input[@id='username'])[1]",
+    "getOtpButton": "//button[@id='genotp']",
+    "otpField": "//div[@class='otpInput inputs']",
+    "loginVerifyButton": "//button[text()='Verify']"
+}

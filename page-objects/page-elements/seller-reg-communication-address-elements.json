@@ -1,0 +1,11 @@
+{
+    "usePermanentAddressCheckbox": "//input[@id='useogaddr']",
+    "companyNameInput": "//input[@id='seller-company']",
+    "phoneNumberInput": "//input[@id='seller-telephone']",
+    "streetAddressInput": "//input[@id='seller-address']",
+    "cityDistrictInput": "//input[@id='seller-city']",
+    "postalCodeInput": "//input[@id='seller-postcode']",
+    "countryDropdown": "//select[@id='country']",
+    "stateProvinceDropdown": "//select[@id='region_id']",
+    "proceedButton": "//span[text()='Proceed']"
+}

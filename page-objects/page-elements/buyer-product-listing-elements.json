@@ -1,0 +1,17 @@
+{
+    "sortByDropdown": "//select[@id='sorter']",
+    "categoryFilter": "//a[text()='Home Décor and Utility']",
+    "colorBrownFilter": "(//div[@data-option-label='Brown'])[3]",
+    "fabricCottonFilter": "//a[text()='Cotton']",
+    "price9999Filter": "//span[text()='₹9,999.99']",
+    "stateAndhraPradeshFilter": "//a[text()='Andhra Pradesh']",
+    "discount10AndAboveFilter": "//a[text()='10% and above']",
+    "homeDecorAndUtilityCount": "//a[text()='Home Décor and Utility']//span[@class='count']",
+    "fabricCottonProductCount": "//a[text()='Cotton']//span[@class='count']",
+    "stateProductCount": "//a[text()='Andhra Pradesh']//span[@class='count']",
+    "rating1StarAndAboveFilter": "//a[text()='1 Star & above']",
+    "firstProductPrice": "(//span[@data-price-type='finalPrice']/span[@class='price'])[1]",
+    "secondProductPrice": "(//span[@data-price-type='finalPrice']/span[@class='price'])[2]",
+    "thirdProductPrice": "(//span[@data-price-type='finalPrice']/span[@class='price'])[3]",
+    "fourthProductPrice": "(//span[@data-price-type='finalPrice']/span[@class='price'])[4]"
+}

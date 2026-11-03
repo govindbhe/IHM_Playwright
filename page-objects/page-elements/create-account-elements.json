@@ -1,0 +1,12 @@
+{
+  "firstNameInput": "input[name='firstName']",
+  "lastNameInput": "input[name='lastName']",
+  "emailInput": "input[name='email']",
+  "mobileNumberInput": "input[name='phone']",
+  "passwordInput": "input[name='password']",
+  "confirmPasswordInput": "input[name='confirmPassword']",
+  "termsCheckbox": "input[type='checkbox'][name*='terms']",
+  "createAccountButton": "button:has-text('Create Account')",
+  "confirmMessage": "div[class*='confirmation-message']",
+  "errorMessage": "div[class*='error-message']"
+}

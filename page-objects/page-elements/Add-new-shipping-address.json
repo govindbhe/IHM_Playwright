@@ -1,0 +1,21 @@
+{
+    "firstNameInput": "//input[@id='firstname']",
+    "lastNameInput": "//input[@id='lastname']",
+    "mobileNumberInput": "//input[@id='telephone']",
+    "addressInput": "//input[@id='street0']",
+    "countryDropdown": "(//select[@id='countryid'])[1]",
+    "stateDropdown": "//select[@id='regionid']",
+    "cityInput": "//input[@id='citydistrict']",
+    "zipCodeInput": "//input[@id='pincode']",
+    "landmarkInput": "(//input[@id='street1'])[1]",
+    "addAndShipHereButton": "//button[@id='addnwshpaddr']",
+    "newAddressDialogHeader": "(//h1[contains(text(),'New Address')])[1]",
+    "cancelButton": "(//span[text()='Cancel'])[2]",
+    "closeDialogButton": "(//span[text()='Close'])[3]",
+    "firstNameErrorMessage": "//div[@id='error-firstname']",
+    "lastNameErrorMessage": "//div[@id='error-lastname']",
+    "addressErrorMessage": "//div[@id='error-street0']",
+    "cityErrorMessage": "//div[@id='error-citydistrict']",
+    "pincodeErrorMessage": "//div[@id='error-pincode']",
+    "mobileErrorMessage": "//div[@id='error-telephone']"
+}

@@ -1,0 +1,9 @@
+{
+    "firstNameInput": "//input[@name='firstname']",
+    "lastNameInput": "//input[@name='lastname']",
+    "maleRadioButton": "(//input[@type='radio'])[1]",
+    "femaleRadioButton": "(//input[@type='radio'])[2]",
+    "submitButton": "//button[contains(.,'Submit')] | //span[text()='Submit']/ancestor::button | (//button[@type='button'])[7]",
+    "phoneNumberInput": "(//input[@name='phone_number'])[1]",
+    "emailInput": "//input[@name='email']"
+}

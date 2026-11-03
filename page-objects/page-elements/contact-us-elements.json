@@ -1,0 +1,10 @@
+{
+    "nameInput": "//input[@id='name']",
+    "messageTextArea": "//textarea[@name='comment']",
+    "submitButton": "//span[text()='Submit']",
+    "phoneNumberInput": "//input[@name='telephone']",
+    "emailInput": "//input[@id='email']",
+    "contactUsSuccessMessage": "//div[contains(text(),'Thanks for contacting us with your comments and questions.')]",
+    "requiredFieldError": "//div[contains(text(),'This is a required field.')]",
+    "messageRequiredError": "//textarea[@name='comment']/following-sibling::div[contains(text(),'This is a required field.')]"
+}

@@ -1,0 +1,16 @@
+{
+    "sellerTypeDropdown": "//select[@id='wkmpvr_seller_type']",
+    "orgRegIdInput": "//input[@id='wkmpvr_handloom_handicraft_id']",
+    "sellerStateListDropdown": "//select[@id='wkmpvr_seller_state_list']",
+    "wscHscDropdown": "//select[@id='wkmpvr_wsc_hsc']",
+    "wscHscNameDropdown": "//select[@id='wkmpvr_wsc_hsc_list']",
+    "orgNameInput": "//input[@id='wkmpvr_firstname1']",
+    "permanentAddressInput": "//input[@id='wkmpvr_selaaddress']",
+    "cityDistrictInput": "//input[@id='wkmpvr_seldistrict']",
+    "stateDropdown": "//select[@id='wkmpvr_selstate']",
+    "stateInput": "//input[@id='wkmpvr_selstate']",
+    "pinInput": "//input[@id='wkmpvr_selpin']",
+    "mobileNoInput": "//input[@id='wkmpvr_selmobile']",
+    "uploadIdInput": "//input[@id='wkmpvr_upload_registration_doc']",
+    "proceedButton": "//span[text()='Proceed']"
+}

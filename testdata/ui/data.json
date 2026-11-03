@@ -1,0 +1,32 @@
+{
+    "Verify typing in search box":{
+    "ProductSKU": "12345",
+    "ProductName": "Test Product"
+},
+
+"homepageurl": "https://www.indiahandmade.com/",
+"searchresultspageurl": "https://www.indiahandmade.com/catalogsearch/result/?q=test",
+"productdetailspageurl": "https://www.indiahandmade.com/catalog/product/view/id/2228/s/jangla-saree-with-gold-and-silver-tested-zari-yellow-onesize/category/2/",
+"contactusurl": "https://www.indiahandmade.com/contact",
+"sareebannerurl": "https://www.indiahandmade.com/indian-womens-wear-online/women-ethnic-wear/handmade-handloom-sarees.html",
+"womenkurtiesbannerurl": "https://www.indiahandmade.com/indian-womens-wear-online/women-ethnic-wear/handmade-kurtis.html",
+"menethnicwearbannerurl": "https://www.indiahandmade.com/men-s-wear/shirt.html",    
+"kichenAndDiningbannerurl": "https://www.indiahandmade.com/home-and-living/kitchen-and-dining.html",
+"Religiousbannerurl": "https://www.indiahandmade.com/home-and-living/religious-item.html",
+"paintingbannerurl": "https://www.indiahandmade.com/catalog/category/view/s/paintings/id/481/",
+"stationarybannerurl": "https://www.indiahandmade.com/home-and-living/stationary.html",  
+"lightingbannerurl": "https://www.indiahandmade.com/home-and-living/lighting.html",
+
+"loginOTP": {
+    "validOTP": "012345",
+    "invalidOTP": "000000",
+    "ValidPhone": "9763274722",
+    "loginURL": "https://t2.dic.org.in",
+    "LessThanSixDigitOTP":"1234",
+  "LessThanTenDigitMobileNumber":"123456789",
+  "MoreThanTenDigitMobileNumber":"962345678901",
+  "validEmail": "testuser@example.com",
+  "invalidEmail": "testuserexample.com"
+}
+
+}

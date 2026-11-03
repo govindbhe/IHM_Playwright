@@ -1,0 +1,16 @@
+{
+    "cashOnDelivery": "//span[text()='Cash On Delivery']",
+    "addNewAddress": "(//span[text()='New Address'])[1]",
+    "airpay": "//span[text()='Airpay']",
+    "continueButton": "//button[text()='Continue']",
+    "payViaUpi": "//p[text()='Pay via UPI']",
+    "wallet": "//img[@alt='Wallet icon']",
+    "phonepay": "(//img[@alt='PHONEPE'])[1]",
+    "submitButton": "//button[text()='Submit']",
+    "upiInput": "//input[@placeholder='Enter UPI ID here']",
+    "verifyUpiButton": "//button[text()='Verify']",
+    "checkBox": "//input[@type='checkbox']",
+    "makePhonepayPayment": "(//button[text()='Make Payment'])[1]",
+    "successMessage": "//div[contains(text(),'Thank you for your purchase!')]",
+    "placeOrder": "(//span[text()='Place Order'])[2]"
+}

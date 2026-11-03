@@ -1,0 +1,42 @@
+{
+  "name": "ihm_playwright_automation",
+  "version": "2.0.0",
+  "description": "IHM Playwright Automation Framework - Converted from TestNG to Playwright with TDD principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui",
+    "test:create-account": "playwright test create-account.spec.ts",
+    "test:cart": "playwright test add-to-cart.spec.ts",
+    "test:search": "playwright test product-search.spec.ts",
+    "test:seller": "playwright test seller-management.spec.ts",
+    "test:wishlist": "playwright test wishlist.spec.ts",
+    "test:checkout": "playwright test checkout.spec.ts"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "tdd",
+    "e-commerce"
+  ],
+  "author": "IHM Automation Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "excel": "^1.0.1",
+    "imapflow": "1.7.2",
+    "pdf-parse": "^2.4.5",
+    "ts-node": "^10.9.2",
+    "xlsx": "^0.18.5"
+  }
+}

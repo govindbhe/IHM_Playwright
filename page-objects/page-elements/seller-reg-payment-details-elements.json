@@ -1,0 +1,10 @@
+{
+    "bankNameInput": "//input[@id='wkmpvr_bank_name']",
+    "bankHolderNameInput": "//input[@id='wkmpvr_account_holder_name']",
+    "bankAccountNoInput": "//input[@id='wkmpvr_bank_account_num']",
+    "ifscCodeInput": "//input[@id='wkmpvr_ifsc_code']",
+    "uploadPassbookInput": "//input[@id='wkmpvr_passbook_cancelled_cheque']",
+    "proceedButton": "//button[@id='proceed']",
+    "agreeCheckbox": "//input[@id='disclaimer']",
+    "doneButton": "//span[text()='Done']"
+}

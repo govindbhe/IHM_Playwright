@@ -1,0 +1,7 @@
+{
+    "cardNumberInput": "#cardNumber",
+    "expiryDateInput": "#expiryDate",
+    "cvvInput": "#cvv",
+    "payButton": "#payButton",
+    "errorMessage": "#errorMessage"
+}

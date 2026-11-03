@@ -1,0 +1,22 @@
+{
+    "seller": {
+        "vendorLoginURL": "https://www.indiahandmade.com/",
+        "emailEnvKey": "seller_email",
+        "passwordEnvKey": "seller_password",
+        "fallbackEmail": "seller@indiahandmade.com",
+        "fallbackPassword": "SellerPassword@123"
+    },
+    "product": {
+        "name": "DupattaNotforsale123",
+        "features": "This is a test product with multiple variants. It is designed to test adding a product with color options and variant combinations for seller workflow validation.",
+        "description": "Detailed description for multi-variant product automation. Includes product attributes, variant generation steps, and save validation checks.",
+        "imagePath": "F:\\new vol\\Documents\\chappls\\GOVV.jpg"
+    },
+    "variants": {
+        "firstColor": "blue",
+        "secondColor": "brown"
+    },
+    "expected": {
+        "saveSuccessMessage": "Your product has been successfully saved"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "dealsInDropdown": "//select[@id='wkmpvr_deals_in']",
+    "panInput": "//input[@id='wkmpvr_pan']",
+    "panUploadInput": "//input[@id='wkmpvr_upload_pan']",
+    "taxpayerTypeDropdown": "//Select[@id='wkmpvr_taxpayer_type']",
+    "gstIdInput": "//input[@id='wkmpvr_gst_number']",
+    "gstUploadInput": "//input[@id='wkmpvr_upload_gst']",
+    "clickAnyPlace": "//b[text()='3.\tPAN']",
+    "mdInput": "//input[@id='wkmpvr_md_ceo']",
+    "designationDropdown": "//select[@id='wkmpvr_designation']",
+    "uploadMdInput": "//input[@id='wkmpvr_upload_md_ceo']",
+    "officerNameInput": "//input[@id='wkmpvr_nodal_officer_name']",
+    "officerMobInput": "//input[@id='wkmpvr_nodal_officer_number']",
+    "proceedButton": "//button[@id='proceed']"
+}

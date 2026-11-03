@@ -1,0 +1,23 @@
+{
+  "shoppingCartTitle": "//span[contains(text(),'Shopping Cart')]",
+  "cartItemRow": "//div[contains(@class,'cart item')]",
+  "priceDetailsTitle": "//strong[contains(text(),'Price Details')]",
+  "moveToWishlist": "//span[contains(text(),'Move to Wishlist')]",
+  "clearShoppingCart": "//span[contains(text(),'Clear Shopping Cart')]",
+  "checkoutButton": "button:has-text('Checkout')",
+  "incrementButtons": "//span[normalize-space(text())='+']",
+  "decrementButtons": "//span[normalize-space(text())='-']",
+  "quantityInputs": "//input[contains(@id,'cart') and @type='number']",
+  "emptyCartMessages": "//p[text()='You have no items in your shopping cart.']",
+  "orderTotalCandidate1": "//tr[contains(@class,'grand totals')]//span[contains(@class,'price') and normalize-space()]",
+  "orderTotalCandidate2": "//strong[contains(.,'Order Total')]/ancestor::tr//span[contains(@class,'price') and normalize-space()]",
+  "orderTotalCandidate3": "//div[contains(@class,'totals')]//*[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'order total')]/ancestor::*[self::tr or self::li or self::div][1]//span[contains(@class,'price') and normalize-space()]",
+  "orderTotalCandidate4": "//span[contains(@class,'grand') and contains(@class,'price') and normalize-space()]",
+  "orderTotalCandidate5": "//span[contains(@class,'price') and normalize-space()]",
+  "productQuantity": "input[name*='quantity']",
+  "cartTotal": "span[class*='cart-total']",
+  "continueShoppingButton": "button:has-text('Continue Shopping')",
+  "removeButton": "button:has-text('Remove')",
+  "updateQuantityButton": "button:has-text('Update')",
+  "cartEmpty": "div:has-text('Your cart is empty')"
+}

@@ -1,0 +1,9 @@
+{
+    "categoryDropdown": "//select[@id='Sorted']",
+    "queryTextArea": "//textarea[@name='query_text']",
+    "submitButton": "(//button[@type='submit'])[3]",
+    "closeButton": "(//button[@type='button'])[8]",
+    "raiseQueryTitle": "//*[contains(text(),'Raise Query')]",
+    "queryRaisedSuccessMessage": "//div[contains(text(),'Query raised successfully.')]",
+    "raiseQueryModalContainer": "//div[@id='modal-content-12']"
+}

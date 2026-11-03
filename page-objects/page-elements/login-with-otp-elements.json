@@ -1,0 +1,23 @@
+{
+    "mobileOrEmailField": "(//input[@id='username'])[1]",
+    "getOtpButton": "//button[text()='Get OTP']",
+    "googleSignInButton": "//div[contains(@id,'g_id_onload')]//parent::div//iframe | //div[contains(@class,'g_id_signin')] | //span[text()='Sign in with Google']//ancestor::div[1]",
+    "orSeparator": "//h3[normalize-space(text())='OR']",
+    "mobileEmailError": "//div[@id='mobilelogin-msg']",
+    "notReceivedOtpText": "//span[contains(text(),'Not received') or contains(text(),'not received')]",
+    "otpBox1": "//input[@id='num_one']",
+    "otpBox2": "//input[@id='num_two']",
+    "otpBox3": "//input[@id='num_three']",
+    "otpBox4": "//input[@id='num_four']",
+    "otpBox5": "//input[@id='num_five']",
+    "otpBox6": "//input[@id='num_six']",
+    "signInHeading": "//h3[text()='Sign In or Sign Up']",
+    "otpMessage": "//div[text()='Enter OTP']",
+    "sentToMessage": "//p[@id='sentParagrap']",
+    "changeLink": "//span[@id='changemobno']",
+    "verifyButton": "//button[text()='Verify']",
+    "resendOtpLink": "//span[contains(text(),'Resend OTP') or contains(text(),'Resend Otp') or contains(text(),'resend')]",
+    "timerDisplay": "//div[@id='timer']",
+    "successMessage": "//div[contains(@class, 'success')][contains(text(), 'OTP verified successfully')]",
+    "errorMessage": "//div[@id='otperrmsg_g']"
+}

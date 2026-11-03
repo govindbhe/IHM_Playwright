@@ -1,0 +1,6 @@
+{
+    "loginEmailInput": "//input[@id='email']",
+    "passwordInput": "(//input[@name='password'])[1]",
+    "passwordConfirmationInput": "//input[@id='password-confirmation']",
+    "proceedButton": "//span[text()='Proceed']"
+}

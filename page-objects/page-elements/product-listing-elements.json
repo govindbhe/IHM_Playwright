@@ -1,0 +1,11 @@
+{
+    "pencileIcon": "(//span[@title='Edit'])[1]",
+    "okPopup": "//span[text()='OK']",
+    "productContainers": "//li[contains(@class,'item product product-item')]",
+    "productNameInput": "//input[@id='name']",
+    "saveButton": "//button[@id='save-btn']",
+    "productNames": "//a[@class='product-item-link']",
+    "productPrices": "//span[@class='price']",
+    "pages": "//span[text()='Page']",
+    "productSaveSuccessMessage": "//div[text()='Your product has been successfully saved']"
+}
