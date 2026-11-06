@@ -27,7 +27,9 @@ permissions:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # Pinned on purpose: "ubuntu-latest" moved to an Ubuntu release that
+    # Playwright cannot install browsers on yet ("does not support chromium").
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
